@@ -1,0 +1,18 @@
+ 3 flags : system , global , local 
+  git config --local user.name "omar alaa"   
+  git config --local user.email "yourUserEmail"
+  git config --list
+
+  git init
+  git add fileName
+  git diff
+  git commit -m "adding commit description"
+  git log
+
+  git commit -am "msg"
+  
+  git remote add origin https://github.com/NohaEltohamy/OSGitHub.git
+  git branch -M main
+  git push -u origin main
+
+  git pull 
